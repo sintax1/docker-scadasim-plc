@@ -9,5 +9,6 @@ WORKDIR /scadasim-plc
 
 RUN make
 
-ENTRYPOINT python scadasim_plc/plc.py
+EXPOSE 502
 
+ENTRYPOINT python scadasim_plc/plc.py
